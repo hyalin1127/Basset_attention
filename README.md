@@ -12,7 +12,15 @@ This repository contains the following two functions:
 ```
 
 # Generate synthetic data #
-The input of the MAGeCK-NEST workflow are read count files. The formats are sgRNA, gene, readcounts
+Executing the following command will generate one train file and one test file: 
+```
+python synthetic_data_stat316.py
+```
+The out put will be:
+```
+STAT316_synthetic_train_posi_data.csv  
+STAT316_synthetic_test_posi_data.csv  
+```
 Ex: 
 ```
 sgRNA         gene     sample1_readcount     sample2_readcount...
