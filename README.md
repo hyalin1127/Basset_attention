@@ -1,5 +1,8 @@
 # Basset_attention
 
+This repository is for Harvard STAT316: Deep learning and regulatory genomics course.
+
+
 Predicting chromatin accessibility from sequence data; attention mechanism
 ====================================================================================
 This repository contains the following two functions:
@@ -8,7 +11,7 @@ This repository contains the following two functions:
 * Train a deep learning model with self attention mechanism for chromain accessibility prediction
 ```
 
-# Prerequisites #
+# Generate synthetic data #
 The input of the MAGeCK-NEST workflow are read count files. The formats are sgRNA, gene, readcounts
 Ex: 
 ```
