@@ -29,5 +29,17 @@ The last 1024\*4: The one-hot encoding of sequence (A,T,C,G) in surrounding 1,02
 # Train model #
 Executing the following command will perform model training and test data prediction.
 ```
-python synthetic_data_stat316.py
+optional arguments:
+  -h, --help            show this help message and exit
+
+Required arguments:
+
+  -i TRAIN_FILE, --train_file=TRAIN_FILE
+                        Train_file_name
+  -t TEST_FILE, --test_file=TEST_FILE
+                        Test_file_name
+```
+Example: 
+```
+python Basset_STAT316_rpos_multihead.py -i STAT316_synthetic_train_posi_data.csv -t STAT316_synthetic_test_posi_data.csv
 ```
