@@ -22,9 +22,9 @@ The out put will be:
 STAT316_synthetic_train_posi_data.csv  
 STAT316_synthetic_test_posi_data.csv  
 ```
-In each file, each line contains 6 + 1024*4 binary numbers.  
+In each file, each line contains 6 + 1024\*4 binary numbers.  
 The first six: Chromain accessible or not (binary) in 6 cell lines.  
-The last 1024*4: The one-hot encoding of sequence (A,T,C,G) in surrounding 1,024 base pairs.
+The last 1024\*4: The one-hot encoding of sequence (A,T,C,G) in surrounding 1,024 base pairs.
 
 # Train model #
 Executing the following command will perform model training and test data prediction.
