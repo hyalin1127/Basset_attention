@@ -47,3 +47,6 @@ Example:
 ```
 python Basset_real_main_v7.py -t Basset_syn_train_posi_bin_matrix.hdf5 -s Basset_syn_test_posi_bin_matrix.hdf5 -m ./motif_folder
 ```
+
+Performance:
+![Precision recall](https://github.com/hyalin1127/Basset_attention/blob/master/Precision_recall.png)
