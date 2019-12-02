@@ -45,5 +45,5 @@ Options:
 ```
 Example: 
 ```
-python Basset_STAT316_rpos_multihead.py -t Basset_syn_train_posi_bin_matrix.hdf5 -s Basset_syn_test_posi_bin_matrix.hdf5
+python Basset_STAT316_rpos_multihead.py -t Basset_syn_train_posi_bin_matrix.hdf5 -s Basset_syn_test_posi_bin_matrix.hdf5 -m ./motif_folder
 ```
