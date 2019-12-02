@@ -4,7 +4,7 @@ For Harvard STAT316: Deep learning and regulatory genomics course.
 This repository aims to predict chromain accessibility from seuquence data. Different from original Basset model, it employes self-attention mechanism from Transformer.
 
 # Model structure
-![model stucture]
+![model stucture](https://github.com/hyalin1127/Basset_attention/blob/master/Basset_attention_model.png)
 
 # Scripts
 
