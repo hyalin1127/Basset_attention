@@ -31,7 +31,7 @@ from torch.optim.lr_scheduler import StepLR
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 def prepare_optparser():
-    usage = "usage: %prog -i train_file_name -t test_file_name"
+    usage = "usage: %prog -i train_file_name -t test_file_name -m motif_path"
     description = "Deep learning with self-attention."
     optparser = OptionParser(version="%prog v1.00", description=description, usage=usage, add_help_option=False)
     optparser.add_option("-h","--help",action="help",help="Show this help message and exit.")
