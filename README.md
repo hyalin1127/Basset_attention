@@ -17,7 +17,7 @@ This repository contains the following two functions:
 # Generate synthetic data #
 Executing the following command will generate one train file and one test file: 
 ```
-python synthetic_data_stat316.py
+python synthetic_data.py
 ```
 The out put will be:
 ```
