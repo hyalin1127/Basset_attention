@@ -19,8 +19,8 @@ python synthetic_data_stat316.py
 ```
 The out put will be:
 ```
-STAT316_synthetic_train_posi_data.csv  
-STAT316_synthetic_test_posi_data.csv  
+Basset_syn_train_posi_bin_matrix.hdf5   
+Basset_syn_test_posi_bin_matrix.hdf5 
 ```
 In each file, each line contains 6 + 1024\*4 binary numbers.  
 The first six: Chromain accessible or not (binary) in 6 cell lines.  
@@ -45,5 +45,5 @@ Options:
 ```
 Example: 
 ```
-python Basset_STAT316_rpos_multihead.py -t Basset_syn_train_posi_bin_matrix.hdf5 -s Basset_syn_test_posi_bin_matrix.hdf5 -m ./motif_folder
+python Basset_real_main_v7.py -t Basset_syn_train_posi_bin_matrix.hdf5 -s Basset_syn_test_posi_bin_matrix.hdf5 -m ./motif_folder
 ```
